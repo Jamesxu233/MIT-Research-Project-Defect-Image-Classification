@@ -21,3 +21,5 @@ accuracy to measure the models’ performance under two
 scenarios. Results illustrated that through transfer learning
 scenario, our model achieves the highest scores over other
 methods.
+
+I am responsible for developing a improved unet model and trained different models for comparison, wrote code about data set importing methods and k-fold cross-validation for training process.
