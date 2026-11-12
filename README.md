@@ -118,19 +118,17 @@ MIT-Research-Project-Defect-Image-Classification/
 │   └── Carpet_Defect_Detection_by_Transfer_Learning.pdf
 ├── src/
 │   ├── Dice.py
+│   ├── IOU.py
 │   ├── data_loader.py
 │   ├── dataset.py
 │   ├── k_fold.py
 │   ├── predict.py
 │   ├── train.py
+│   ├── test_metrics.py
 │   ├── unet_model.py
 │   └── unet_parts.py
 ├── docs/
 │   └── implementation_audit.md
-├── data/
-│   └── README.md
-├── results/
-│   └── README.md
 ├── requirements.txt
 └── .gitignore
 ```
