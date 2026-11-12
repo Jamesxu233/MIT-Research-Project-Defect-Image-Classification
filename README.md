@@ -183,13 +183,20 @@ The current `predict.py` script uses hard-coded local paths; it is not yet a por
 
 For a binary segmentation task:
 
-\[
-IoU = \frac{TP}{TP+FP+FN}
-\]
 
-\[
-PA = \frac{TP+TN}{TP+TN+FP+FN}
-\]
+
+$$
+IoU = \frac{TP}{TP + FP + FN}
+$$
+
+
+
+$$
+PA = \frac{TP + TN}{TP + TN + FP + FN}
+$$
+
+
+
 
 Use the same thresholding, mask preprocessing, and test split when comparing models. Report metrics on the held-out test set only after model selection is complete.
 
