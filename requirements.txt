@@ -1,0 +1,9 @@
+# Initial dependency list inferred from the uploaded source files.
+# Pin versions after confirming a clean, reproducible environment.
+torch
+torchvision
+numpy
+Pillow
+scikit-image
+opencv-python
+matplotlib
